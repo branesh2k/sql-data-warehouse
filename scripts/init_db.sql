@@ -1,10 +1,14 @@
-/*CREATE DATABASE AND SCHEMAS
- * SCRIPT PURPOSE:
- * This script will check if db named "DataWarehouse" exists or not.
- * If exists use Drop command Else Create command
+/*
+------------------------------------------------------------------------
+CREATE DATABASE AND SCHEMAS
+------------------------------------------------------------------------
+ SCRIPT PURPOSE:
+ *	This script will check if db named "DataWarehouse" exists or not.
+ *	If exists use Drop command Else Create command
+ *	Additionally it creates three schemas for Medallion Architecture.
  
- 
- *Additionally it creates three schemas for Medallion Architecture.*/
+ WARNING:
+ *	Running this script will drop database if it already exists.*/
 
 
 --create database if not exists
