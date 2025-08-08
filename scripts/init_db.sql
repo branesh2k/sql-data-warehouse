@@ -8,7 +8,8 @@ CREATE DATABASE AND SCHEMAS
  *	Additionally it creates three schemas for Medallion Architecture.
  
  WARNING:
- *	Running this script will drop database if it already exists.*/
+ *	Running this script will drop database if it already exists.
+ */
 
 
 --create database if not exists
